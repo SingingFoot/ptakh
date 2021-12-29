@@ -9,7 +9,6 @@
 }
 body
 {
-    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -19,9 +18,21 @@ body
     margin-bottom: 10px;
 
 }
+.comment1{
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    margin-right: 10px;
+    text-align: justify;
+    max-width: 500px;
+    margin-top: 200px;
+}
 .title{
     color: rgb(255, 255, 255);
-    display: inline-block;
+    font-weight: 800;
+    font-size: 30px;
+    position: sticky;
+    text-align:center;
     margin: 10px;
 }
 .container{
@@ -31,7 +42,7 @@ body
     margin: 50px;
 }
 .textbody{
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: white;
     padding: 35px;
     text-align: justify;
