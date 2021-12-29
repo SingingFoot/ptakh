@@ -13,6 +13,7 @@ body
     align-items: center;
     min-height: 100vh;
     background: #26a7e2;
+    margin: 50px;
 }
 .epigraph{
     margin-bottom: 10px;
@@ -31,15 +32,15 @@ body
     color: rgb(255, 255, 255);
     font-weight: 800;
     font-size: 30px;
-    position: sticky;
     text-align:center;
-    margin: 10px;
+    margin-top: 50px;
+    margin-bottom: 0px;
 }
 .container{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 50px;
+    align-items: center;   
+    margin: 30px;   
 }
 .textbody{
     border-radius: 10px;
