@@ -15,6 +15,10 @@ body
     min-height: 100vh;
     background: #26a7e2;
 }
+.epigraph{
+    margin-bottom: 10px;
+
+}
 .title{
     color: rgb(255, 255, 255);
     display: inline-block;
@@ -29,5 +33,11 @@ body
 .textbody{
     border-radius: 20px;
     background-color: white;
-    padding: 15px;
+    padding: 35px;
+    text-align: justify;
+}
+
+.vid{
+    text-align: right;
+    padding-bottom: 10px;
 }
