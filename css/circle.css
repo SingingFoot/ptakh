@@ -1,0 +1,26 @@
+body {
+    background: #2e3031;
+    padding: 50px;
+}
+
+.content__circle {
+    border-radius: 50%;
+    position:relative;
+    left: 0;
+    animation-name: white-circle;
+    animation-duration: 14s;
+    animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1.0);
+    animation-iteration-count: infinite;
+}
+ 
+@keyframes white-circle {
+    0%{
+        left: 0%;
+   }
+    50%{
+        left: 90%;
+    }
+    100%{
+        left: 0%;
+    }
+}
